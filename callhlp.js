@@ -1,7 +1,7 @@
 /*
  * See https://github.com/bluecmd/windbg-call/
  *
- * Load: scriptunload C:\Shared\callhlp.js; .scriptload C:\Shared\callhlp.js
+ * Load: .scriptunload C:\Shared\callhlp.js; .scriptload C:\Shared\callhlp.js
  * Run:  dx Debugger.State.Scripts.callhlp.Contents.run()
  *
  * Example: see example.cpp
